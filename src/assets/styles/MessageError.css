@@ -1,0 +1,50 @@
+/*Css del Success*/
+.message {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 75%;
+    padding: 12px;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+
+.message__color__success {
+    background: -webkit-linear-gradient(top right, #5cfd0a, #5cfd0a);
+    background: linear-gradient(to right, #41c500, #41c500);
+    box-shadow: 0 0 12px #8fff17;
+}
+
+.message__color__info {
+    background: -webkit-linear-gradient(top right, #46a5ff, #339aff);
+    background: linear-gradient(to right, #3199ff, #1c8dff);
+    box-shadow: 0 0 10px #41ceff;
+}
+
+.message__color__error {
+    background: -webkit-linear-gradient(top right, #f45c43, #eb3349);
+    background: linear-gradient(to right, #f45c43, #eb3349);
+    box-shadow: 0 0 10px #de1c3280;
+}
+
+
+.message__icon {
+    width: 20px;
+    height: 20px;
+    transform: translateY(-2px);
+    margin-right: 8px;
+}
+
+.message__icon path {
+    fill: #ffffff;
+}
+
+.message__title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
